@@ -6,7 +6,7 @@ import math
 # Initializing Object Detection
 od = ObjectDetection()
 
-cap = cv2.VideoCapture(r"C:\Users\anubh\OneDrive\Desktop\source_code\traffic_detection.mp4")
+cap = cv2.VideoCapture(r"sample-video-path")
 
 # Initializing count
 count = 0
