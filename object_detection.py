@@ -10,7 +10,7 @@ class ObjectDetection:
         self.confThreshold = 0.5
         self.image_size = 608
         # Load Network
-        net = cv2.dnn.readNet(r'C:\Users\anubh\OneDrive\Desktop\source_code\dnn_model\yolov4.weights', r'C:\Users\anubh\OneDrive\Desktop\source_code\dnn_model\yolov4.cfg')
+        net = cv2.dnn.readNet(r'weight-file-path', r'yolov4.cfg-file-path')
 
         # Enabling GPU CUDA
         net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
@@ -25,7 +25,7 @@ class ObjectDetection:
 
     def load_class_names(self, classes_path=""):
 
-        with open(r'C:\Users\anubh\OneDrive\Desktop\source_code\dnn_model\classes.txt') as file_object:
+        with open(r'classes.txt-file-path') as file_object:
             for class_name in file_object.readlines():
                 class_name = class_name.strip()
                 self.classes.append(class_name)
