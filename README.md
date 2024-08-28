@@ -27,10 +27,15 @@ Video surveillance is a crucial technology for ensuring security and safety in v
 2. Scalability - It must be scalable to accommodate varying surveillance scenarios and system expansions.
 3. User Interface - An intuitive user interface for ease of use and efficient monitoring by operators.
 
+![reference image](Picture2.gif)
+
 
 # DESIGN OF PROJECT
 
 The procedural framework for achieving real-time multi-object detection and tracking encompasses a three-step approach. Initially, we utilize advanced background modeling techniques to establish a reference for the surroundings. Subsequently, motion segmentation is applied to distinguish dynamic elements from static backgrounds. The final step involves object classification for precise recognition. Foreground segmentation incorporates adaptive background subtraction, frame differencing, and an adaptive K foreground and background Gaussian mixture model. This systematic process is designed to improve surveillance capabilities, addressing various applications like entrance control, traffic monitoring, and security, while forming the basis for effective event recognition.
+
+
+![reference image](Picture4.gif)
 
 
 # LIMITATIONS
@@ -69,6 +74,9 @@ Criteria for handpicking leading research methods in the object tracking domain 
 * "You Only Look Once," encapsulates its foundational idea: object detection should occur in a single forward pass through the neural network. This sharply contrasts with methods that separate object localization and classification into distinct stages.
 * YOLO's strategy divides an image into a grid, and for each grid cell, it predicts multiple bounding boxes and their associated class probabilities simultaneously. This unified framework drastically reduces computational overhead, making real-time detection feasible without sacrificing accuracy.
 * Compared to previous methods, YOLO's streamlined approach offers significant advantages. It reduces latency, making it apt for real-time applications, and its holistic view of the image ensures contextual understanding, reducing false positives. With YOLO's inception, the field witnessed a paradigm shift, emphasizing both efficiency and accuracy in object detection.
+
+
+![reference image](Picture3.gif)
 
 
 # References
