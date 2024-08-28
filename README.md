@@ -4,7 +4,7 @@
 In the field of computer vision, my project focuses on developing a Real-Time Multi-Object Detection and Tracking system for video surveillance in dynamic environments. This technology has broad applications, including surveillance, medical imaging, vehicle navigation, and autonomous robotics. It’s particularly crucial for tackling issues related to terrorism, crime, and public safety. My project aims to improve traffic management efficiency by breaking down the surveillance process into three main tasks: detecting moving objects, tracking objects, and recognizing events. This work is in line with the growing demand for advanced visual monitoring solutions across various fields.
 
 #### Reference Image
-![reference image](Picture1.gif)
+![reference image](Picture1.gif) <br>
 
 
 # OBJECTIVE OF THE PROJECT
@@ -27,7 +27,7 @@ Video surveillance is a crucial technology for ensuring security and safety in v
 2. Scalability - It must be scalable to accommodate varying surveillance scenarios and system expansions.
 3. User Interface - An intuitive user interface for ease of use and efficient monitoring by operators.
 
-![reference image](Picture2.gif)
+![reference image](Picture2.gif) <br>
 
 
 # DESIGN OF PROJECT
@@ -35,7 +35,7 @@ Video surveillance is a crucial technology for ensuring security and safety in v
 The procedural framework for achieving real-time multi-object detection and tracking encompasses a three-step approach. Initially, we utilize advanced background modeling techniques to establish a reference for the surroundings. Subsequently, motion segmentation is applied to distinguish dynamic elements from static backgrounds. The final step involves object classification for precise recognition. Foreground segmentation incorporates adaptive background subtraction, frame differencing, and an adaptive K foreground and background Gaussian mixture model. This systematic process is designed to improve surveillance capabilities, addressing various applications like entrance control, traffic monitoring, and security, while forming the basis for effective event recognition.
 
 
-![reference image](Picture4.gif)
+![reference image](Picture4.gif) <br>
 
 
 # LIMITATIONS
@@ -58,6 +58,13 @@ Criteria for handpicking leading research methods in the object tracking domain 
 * Novel idea
 
 
+# Project Implementation
+![reference image](pi1.png) <br><br>
+![reference image](pi2.png) <br><br>
+![reference image](pi3.png) <br><br>
+![reference image](pi4.png) <br>
+
+
 # REAL-TIME USAGE
 
 * Enhanced Security Measures
@@ -76,8 +83,13 @@ Criteria for handpicking leading research methods in the object tracking domain 
 * Compared to previous methods, YOLO's streamlined approach offers significant advantages. It reduces latency, making it apt for real-time applications, and its holistic view of the image ensures contextual understanding, reducing false positives. With YOLO's inception, the field witnessed a paradigm shift, emphasizing both efficiency and accuracy in object detection.
 
 
-![reference image](Picture3.gif)
+![reference image](Picture3.gif) <br>
 
+
+# Output
+![reference image](o1.png) <br><br>
+![reference image](o2.png) <br><br>
+![reference image](o3.png) <br>
 
 # References
 
