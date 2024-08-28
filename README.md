@@ -64,7 +64,12 @@ Criteria for handpicking leading research methods in the object tracking domain 
 ![reference image](pi3.png) <br><br>
 ![reference image](pi4.png) <br>
 
+# Implementation video
 
+ ![reference image](Media1.gif)
+
+
+ 
 # REAL-TIME USAGE
 
 * Enhanced Security Measures
