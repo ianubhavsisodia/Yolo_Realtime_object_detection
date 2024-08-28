@@ -3,6 +3,10 @@
 
 In the field of computer vision, my project focuses on developing a Real-Time Multi-Object Detection and Tracking system for video surveillance in dynamic environments. This technology has broad applications, including surveillance, medical imaging, vehicle navigation, and autonomous robotics. It’s particularly crucial for tackling issues related to terrorism, crime, and public safety. My project aims to improve traffic management efficiency by breaking down the surveillance process into three main tasks: detecting moving objects, tracking objects, and recognizing events. This work is in line with the growing demand for advanced visual monitoring solutions across various fields.
 
+#### Reference Image
+![reference image](Picture1.gif)
+
+
 # OBJECTIVE OF THE PROJECT
 
 The primary objective of this project is to pioneer the development and assessment of a cutting-edge algorithm designed for the efficient and precise real-time detection and tracking of multiple objects in video streams. This novel algorithm aims to surpass existing solutions by demonstrating superior accuracy and robustness across diverse video surveillance scenarios. Through rigorous evaluation, we seek to establish its applicability in addressing the challenges of contemporary surveillance needs. By pushing the boundaries of object detection and tracking, our project aspires to contribute a pioneering solution with broad implications for enhancing security and efficiency in real-world video monitoring applications.
