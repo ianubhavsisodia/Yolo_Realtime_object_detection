@@ -67,8 +67,23 @@ Criteria for handpicking leading research methods in the object tracking domain 
 
  ![reference image](Media1.gif)
 
+The white car has lost track because the object has not been identified anymore and If a new object is identified, the list of points must also be updated.
 
- 
+## Object Tracking
+
+By saving the position of the center point of each object, we can trace the previous position of the objects and predict what the immediate next will be. as you can see  in the image
+
+## To Find The Point And Assign The ID
+
+* We don’t need the history of all the tracking but only the last points , so Initialize an array to keep track of the previous points and then we need to calculate the distance between the points to make sure they all belong to the same object. The closer the points are, the greater the probability that we are tracking the same object.
+
+* with math.hypot() function the distance of the two points is calculated and if the distance is less than 20, an ID is associated with the position of the point.
+
+* The math.hypot() method returns the Euclidean norm. The Euclidian norm is the distance from the origin to the coordinates given.
+
+## To Assign Univocal ID
+we have to make sure to compare the previous object with the current one and update the position of the ID. In this way, the same object remains with the same ID for its entire path. When the object is no longer recognized, it loses the ID. 
+
 # REAL-TIME USAGE
 
 * Enhanced Security Measures
