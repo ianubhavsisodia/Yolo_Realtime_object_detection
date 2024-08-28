@@ -13,9 +13,9 @@ Video surveillance is a crucial technology for ensuring security and safety in v
 # REQUIREMENT ANALYSIS 
 
 ### Functional Requirements
-1.Real-Time Object Detection and Tracking - The system must adeptly detect and track multiple objects in real-time using a single-camera video stream.
-2.Robust Handling of Challenges - It should effectively manage occlusions, shadows, illumination changes, and camera motion to ensure continuous and accurate tracking.
-3.Consistent Object Identities - The system must maintain consistent identities for tracked objects across different views, ensuring reliable monitoring in dynamic environments.
+1. Real-Time Object Detection and Tracking - The system must adeptly detect and track multiple objects in real-time using a single-camera video stream.
+2. Robust Handling of Challenges - It should effectively manage occlusions, shadows, illumination changes, and camera motion to ensure continuous and accurate tracking.
+3. Consistent Object Identities - The system must maintain consistent identities for tracked objects across different views, ensuring reliable monitoring in dynamic environments.
 
 ### Non-Functional Requirements
 1. Performance - The system should exhibit high-performance capabilities to ensure real-time responsiveness.
@@ -52,6 +52,11 @@ Criteria for handpicking leading research methods in the object tracking domain 
 
 * Enhanced Security Measures
   * The project's real-time applications bolster security in various domains, providing       advanced tools for entrance control in special areas, optimizing traffic monitoring, and fortifying security in critical locations such as airports and banks.
+* Public Safety and Military Operations
+  * With a focus on real-time Object Detection, Tracking, and Event Recognition, the system proves indispensable in ensuring public safety and supporting military operations by promptly identifying and responding to potential threats.
+* Urban Planning and Behavioral Analysis
+  * Beyond security, the project contributes to urban planning efforts, utilizing advanced techniques like adaptive background subtraction. It also enables nuanced analysis of person behavior, providing valuable insights for urban development and public space management.
+
 
 
 
